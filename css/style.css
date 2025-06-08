@@ -1,4 +1,13 @@
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* Custom */
+:root{
+  --body-bg: #F1F4FF;
+  --text-color: #000;
+  --red: #F03535;
+  --green: #4DC490;
+  --blue: #3A2BF8;
+}
 
 html{
     height: 100%;
@@ -8,9 +17,10 @@ html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: normal;
+  color: var(--text-color);
 }
 
 .container{
